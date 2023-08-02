@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+}
+
+/* Typography */
+
+h1, h2, h3, p  {
+    margin: 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* header */
+
+.header {
+    background-color: #282828;
+    margin: 0px 0;
+}
+
+.nav-bar {
+    padding: 25px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    position: relative;
+    gap:  10px;
+}
+
+.navigation-burger {
+    position: absolute;
+    right: 0;
+    width: 30px;
+}
+
+.header-pin {
+    width: 30px;
+    display: flex;
+}
+
+/* Title */
+
+.main-header {
+    padding: 25px;
+    font-weight: bold;
+}
+
+/* Section */
+
+.section-image {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.section-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 25px;
+    gap: 10px;
+}
+
+.section-summary p {
+    padding: 25px 0;
+}
+
+.section-button {
+    align-self: center;
+    padding: 10px 15px;
+    background-color: #cd6858;
+    border: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.section {
+    position: relative;
+    background: #fff;
+}
+
+.banner {
+    padding: 10px 15px;
+    background-color: #cd6858;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+}
+
+.section-button:hover,
+.section-button:focus {
+    color: #282828;
+    cursor: pointer;
+}
+
+.chat-bot {
+    background-color: orange;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.message-button {
+    height: 40px
+}
